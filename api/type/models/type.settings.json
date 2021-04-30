@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "types",
+  "info": {
+    "name": "type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "type"
+    },
+    "stories": {
+      "via": "type",
+      "collection": "story"
+    }
+  }
+}

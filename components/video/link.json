@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_video_links",
+  "info": {
+    "name": "link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

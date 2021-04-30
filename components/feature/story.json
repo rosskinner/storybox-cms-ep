@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_feature_stories",
+  "info": {
+    "name": "featureStory",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "collection": "story"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
