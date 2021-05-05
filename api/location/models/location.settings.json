@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "types",
+  "collectionName": "locations",
   "info": {
-    "name": "type"
+    "name": "location",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,13 +18,13 @@
     "description": {
       "type": "richtext"
     },
-    "categories": {
-      "collection": "category",
-      "via": "type"
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     },
     "stories": {
-      "via": "type",
-      "collection": "story"
+      "collection": "story",
+      "via": "location"
     }
   }
 }

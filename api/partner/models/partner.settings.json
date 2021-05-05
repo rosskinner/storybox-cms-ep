@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "partners",
   "info": {
-    "name": "partner"
+    "name": "partner",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -18,10 +19,6 @@
     "description": {
       "type": "richtext"
     },
-    "stories": {
-      "via": "partner",
-      "collection": "story"
-    },
     "logo": {
       "model": "file",
       "via": "related",
@@ -31,6 +28,10 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

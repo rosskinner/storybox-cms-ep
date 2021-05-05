@@ -40,10 +40,6 @@
       "required": true,
       "pluginOptions": {}
     },
-    "category": {
-      "model": "category",
-      "via": "stories"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title",
@@ -54,13 +50,13 @@
       "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
       "required": true
     },
-    "type": {
-      "model": "type",
-      "via": "stories"
+    "category": {
+      "via": "stories",
+      "model": "category"
     },
-    "partner": {
-      "model": "partner",
-      "via": "stories"
+    "location": {
+      "via": "stories",
+      "model": "location"
     }
   }
 }
