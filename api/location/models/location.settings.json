@@ -23,8 +23,8 @@
       "targetField": "title"
     },
     "stories": {
-      "collection": "story",
-      "via": "location"
+      "via": "location",
+      "collection": "story"
     }
   }
 }

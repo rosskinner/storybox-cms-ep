@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "homes",
+  "collectionName": "collection_page",
   "info": {
-    "name": "Home Page",
+    "name": "Collection Page",
     "description": ""
   },
   "options": {
@@ -12,10 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "featureCollections": {
+    "feature": {
+      "model": "story"
+    },
+    "section": {
       "type": "component",
       "repeatable": false,
-      "component": "feature.story"
+      "component": "section.section"
     },
     "banner": {
       "type": "component",

@@ -1,15 +1,12 @@
 {
-  "collectionName": "components_feature_collections",
+  "collectionName": "components_section_sections",
   "info": {
-    "name": "featureCollection",
-    "icon": "book",
+    "name": "section",
+    "icon": "align-justify",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "features": {
-      "collection": "story"
-    },
     "title": {
       "type": "string",
       "required": true

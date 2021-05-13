@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "stories",
   "info": {
-    "name": "story",
+    "name": "collection",
     "description": ""
   },
   "options": {
@@ -18,14 +18,6 @@
     },
     "credit": {
       "type": "string"
-    },
-    "year": {
-      "type": "string",
-      "regex": "^\\d{4}$"
-    },
-    "website": {
-      "type": "string",
-      "regex": "[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
     },
     "description": {
       "type": "richtext"
@@ -51,12 +43,12 @@
       "required": true
     },
     "category": {
-      "via": "stories",
-      "model": "category"
+      "model": "category",
+      "via": "stories"
     },
     "location": {
-      "via": "stories",
-      "model": "location"
+      "model": "location",
+      "via": "stories"
     }
   }
 }
