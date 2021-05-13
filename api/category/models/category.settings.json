@@ -22,17 +22,9 @@
       "type": "uid",
       "targetField": "title"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "tag",
-        "partner"
-      ],
-      "required": true
-    },
     "stories": {
-      "via": "category",
-      "collection": "story"
+      "collection": "story",
+      "via": "category"
     }
   }
 }

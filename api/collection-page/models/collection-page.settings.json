@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "feature": {
-      "model": "story"
-    },
     "section": {
       "type": "component",
       "repeatable": false,
