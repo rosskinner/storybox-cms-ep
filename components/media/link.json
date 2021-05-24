@@ -1,15 +1,14 @@
 {
   "collectionName": "components_video_links",
   "info": {
-    "name": "link",
+    "name": "video",
     "icon": "link",
     "description": ""
   },
   "options": {},
   "attributes": {
     "link": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   }
 }

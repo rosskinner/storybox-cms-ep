@@ -1,20 +1,20 @@
 {
   "collectionName": "components_video_upload_videos",
   "info": {
-    "name": "uploadVideo",
+    "name": "image",
     "icon": "cloud-upload-alt",
     "description": ""
   },
   "options": {},
   "attributes": {
     "file": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
-        "videos"
+        "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     }
   }

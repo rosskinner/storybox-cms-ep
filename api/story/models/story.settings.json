@@ -37,11 +37,6 @@
       "targetField": "title",
       "required": true
     },
-    "video": {
-      "type": "string",
-      "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
-      "required": false
-    },
     "categories": {
       "collection": "category",
       "via": "story"
@@ -49,6 +44,16 @@
     "location": {
       "model": "location",
       "via": "stories"
+    },
+    "media": {
+      "type": "dynamiczone",
+      "components": [
+        "media.link",
+        "media.upload-video"
+      ]
+    },
+    "video": {
+      "type": "string"
     }
   }
 }
