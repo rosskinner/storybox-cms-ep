@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "contribute_pages",
+  "info": {
+    "name": "Contribute Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.banner"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.section"
+    }
+  }
+}

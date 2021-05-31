@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contribute-page",
+      "handler": "contribute-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contribute-page",
+      "handler": "contribute-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contribute-page",
+      "handler": "contribute-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -49,11 +49,15 @@
       "type": "dynamiczone",
       "components": [
         "media.link",
-        "media.upload-video"
+        "media.image"
       ]
     },
     "video": {
       "type": "string"
+    },
+    "articles": {
+      "collection": "article",
+      "via": "collectionItem"
     }
   }
 }
