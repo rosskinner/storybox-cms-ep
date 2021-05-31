@@ -37,10 +37,6 @@
       "targetField": "title",
       "required": true
     },
-    "categories": {
-      "collection": "category",
-      "via": "story"
-    },
     "location": {
       "model": "location",
       "via": "stories"
@@ -58,6 +54,10 @@
     "articles": {
       "collection": "article",
       "via": "collectionItem"
+    },
+    "categories": {
+      "via": "stories",
+      "collection": "category"
     }
   }
 }

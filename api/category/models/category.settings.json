@@ -22,9 +22,10 @@
       "type": "uid",
       "targetField": "title"
     },
-    "story": {
+    "stories": {
+      "collection": "story",
       "via": "categories",
-      "model": "story"
+      "dominant": true
     }
   }
 }
