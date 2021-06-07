@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "contribute_pages",
   "info": {
-    "name": "Contribute Page"
+    "name": "Contribute Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,6 +20,11 @@
     "section": {
       "type": "component",
       "repeatable": true,
+      "component": "section.section"
+    },
+    "formSection": {
+      "type": "component",
+      "repeatable": false,
       "component": "section.section"
     }
   }
