@@ -52,8 +52,8 @@
       "type": "string"
     },
     "articles": {
-      "collection": "article",
-      "via": "collectionItem"
+      "via": "collectionItem",
+      "collection": "article"
     },
     "categories": {
       "via": "stories",

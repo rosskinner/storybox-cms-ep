@@ -26,6 +26,11 @@
       "type": "component",
       "repeatable": false,
       "component": "section.section"
+    },
+    "contributeForms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.contribute"
     }
   }
 }

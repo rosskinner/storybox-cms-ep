@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_section_contributes",
+  "info": {
+    "name": "contribute",
+    "icon": "clipboard-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "jotFormLink": {
+      "type": "string"
+    }
+  }
+}
