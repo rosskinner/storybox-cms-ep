@@ -21,6 +21,13 @@
       "type": "component",
       "repeatable": false,
       "component": "section.banner"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "section.section",
+        "section.text"
+      ]
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "instagrams",
+  "info": {
+    "name": "instagram",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instagram_feed_instagram_feeds": {
+      "plugin": "instagram-feed",
+      "collection": "instagram-feed"
+    },
+    "title": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    }
+  }
+}

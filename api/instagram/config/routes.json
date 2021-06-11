@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/instagram",
+      "handler": "instagram.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/instagram",
+      "handler": "instagram.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/instagram",
+      "handler": "instagram.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
