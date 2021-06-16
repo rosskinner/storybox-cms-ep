@@ -23,6 +23,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "video": {
+      "type": "string"
     }
   }
 }

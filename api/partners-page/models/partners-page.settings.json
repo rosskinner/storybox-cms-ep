@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "partners_pages",
+  "info": {
+    "name": "Partners Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.banner"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "section.section",
+        "section.text"
+      ]
+    }
+  }
+}
