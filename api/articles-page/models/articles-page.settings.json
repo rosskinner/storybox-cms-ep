@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "articles_pages",
   "info": {
-    "name": "Articles Page"
+    "name": "Articles Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,10 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "banner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "section.banner"
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "section.banner",
+        "section.section",
+        "section.text"
+      ]
     }
   }
 }

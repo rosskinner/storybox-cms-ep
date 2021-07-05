@@ -2,24 +2,28 @@
   "collectionName": "components_section_banners",
   "info": {
     "name": "banner",
-    "icon": "image"
+    "icon": "image",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "content": {
       "type": "richtext"
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.image"
+    },
+    "backgroundVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.link"
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.background"
     }
   }
 }

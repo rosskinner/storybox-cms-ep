@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_all_collections",
+  "info": {
+    "name": "allCollections",
+    "icon": "layer-group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "backgroundColour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.background"
+    }
+  }
+}

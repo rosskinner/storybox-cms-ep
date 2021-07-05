@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_media_backgrounds",
+  "info": {
+    "name": "background",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundColour": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "white",
+        "grey"
+      ],
+      "default": "black"
+    }
+  }
+}

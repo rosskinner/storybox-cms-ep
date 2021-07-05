@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "partners_pages",
   "info": {
-    "name": "Partners Page"
+    "name": "Partners Page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,16 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "banner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "section.banner"
-    },
     "components": {
       "type": "dynamiczone",
       "components": [
         "section.section",
-        "section.text"
+        "section.text",
+        "section.banner"
       ]
     }
   }

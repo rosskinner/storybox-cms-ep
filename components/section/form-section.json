@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_section_sections",
+  "collectionName": "components_section_form_sections",
   "info": {
-    "name": "section",
-    "icon": "align-justify",
+    "name": "form",
+    "icon": "grip-lines",
     "description": ""
   },
   "options": {},
@@ -35,6 +35,10 @@
       "type": "component",
       "repeatable": false,
       "component": "section.link"
+    },
+    "formLink": {
+      "type": "string",
+      "required": true
     }
   }
 }

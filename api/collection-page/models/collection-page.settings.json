@@ -12,15 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "section": {
-      "type": "component",
-      "repeatable": false,
-      "component": "section.section"
-    },
-    "banner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "section.banner"
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "section.text",
+        "section.section",
+        "section.banner",
+        "section.all-collections"
+      ]
     }
   }
 }

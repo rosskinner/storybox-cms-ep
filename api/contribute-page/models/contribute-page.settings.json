@@ -12,25 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "banner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "section.banner"
-    },
-    "section": {
-      "type": "component",
-      "repeatable": true,
-      "component": "section.section"
-    },
-    "formSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "section.section"
-    },
-    "contributeForms": {
-      "type": "component",
-      "repeatable": true,
-      "component": "section.contribute"
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "section.text",
+        "section.section",
+        "section.banner",
+        "section.form-section"
+      ]
     }
   }
 }

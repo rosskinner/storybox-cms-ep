@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_features",
+  "info": {
+    "name": "feature",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundColour": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.background"
+    },
+    "collections": {
+      "collection": "story"
+    }
+  }
+}

@@ -9,6 +9,10 @@
   "attributes": {
     "link": {
       "type": "string"
+    },
+    "right": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

@@ -18,9 +18,9 @@ module.exports = {
   // '0 1 * * 1': () => {
   //
   // }
-  '*/30 * * * *': async () => {
-		await strapi.plugins['instagram-feed'].services[
-			'instagram-feed'
-		].fetchInstagramFeed();
-	},
+  // '*/5 * * * *': async () => {
+	// 	await strapi.plugins['instagram-feed'].services[
+	// 		'instagram-feed'
+	// 	].fetchInstagramFeed();
+	// },
 };

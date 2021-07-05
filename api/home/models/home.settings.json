@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "featureCollections": {
-      "type": "component",
-      "repeatable": false,
-      "component": "feature.story"
-    },
     "banner": {
       "type": "component",
       "repeatable": false,
@@ -26,7 +21,8 @@
       "type": "dynamiczone",
       "components": [
         "section.section",
-        "section.text"
+        "section.text",
+        "section.feature"
       ]
     }
   }
